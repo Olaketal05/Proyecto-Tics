@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    font-family:serif;
+}
+#header, th, #footer{
+    color:#F6F4F0;
+    background-color:#2E5077;
+    padding:1px;
+}
+#menu{
+    color:#2E5077;
+    background-color:#79D7BE;
+    width:250px;
+    float:left;
+}
+.menui a,.menui a:visited{
+    text-decoration:none;
+    color:#2E5077;
+}
+.menuh a,.menuh a:visited{
+    text-decoration:none;
+    color:#F6F4F0;
+    font-size:20px;
+}
+#menu ul{
+    list-style:none;
+}
+#main{
+    color:black;
+    background-color:#F6F4F0;
+    width:1116px;
+    float:right;
+}
+h1{
+    font-size:60px;
+    text-align:center;
+}
+h2{
+    font-size:30px;
+}
+#main h2{
+    text-align:center;
+}
+p{
+    font-size:20px;
+    paddind:50px;
+    text-align:center;
+}
+.index #menu, .index #main{
+    height:680px;
+}
+.Concepto #menu, .Concepto #main{
+    height:1050px;
+}
+.Historia #menu, .Historia #main{
+    height:1300px;
+}
+.Diferencial #menu, .Diferencial #main{
+    height:1500px;
+}
+.Integral #menu, .Integral #main{
+    height:1450px;
+}
